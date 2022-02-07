@@ -2,37 +2,185 @@
     box-sizing: border-box;
 }
 
+nav {
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.headline {
+    background: linear-gradient(rgba(211, 211, 211, 0.9), rgba(211, 211, 211, 0.9)), url('assets/images/webmobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+.headline h1 {
+    color: #ec5242;
+    font-size: 40px;
+    padding: 10px;
+    font-family: 'COCOGOOSE', sans-serif;
+}
+
 .program-list {
+    background-image: url(./assets/images/main-bg.png), linear-gradient(rgb(39, 42, 49), rgb(39, 42, 49));
+    background-repeat: repeat;
+    background-size: 30px;
 display: flex;
 flex-direction: column;
 justify-items: center;
+margin-top: 40px;
+border: solid;
+padding: 10px 10px 30px 10px;
 }
 
 .program-list h2 {
     text-align: center;
-    margin: 0;
+    font-size: 17px;
+    font-weight: bold;
+    color: #d3d3d3;
+    font-family: 'Lato', sans-serif;
+}
+
+.introt {
+    padding: 1px;
+    color: #272a31;
+    line-height: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.intro {
+    padding: 10px;
+    color: #272a31;
+    border: 2px solid white;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: 'Lato', sans-serif;
 }
 
 hr {
-    color: black;
-    overflow: visible !important;
+    border: 1px solid #ec5242;
     width: 50px;
+    margin-right: 47%
 }
 
 .program-items {
-    background-image: url(./assets/images/main-bg.png), linear-gradient(rgb(39, 42, 49), rgb(39, 42, 49));
-    background-repeat: repeat;
-    background-size: 30px;
-    border: solid;
     padding-bottom: 30px;
+    padding: 0;
+    gap: 10px;
 }
 
 .program-items li {
     display: flex;
-    gap: 10px;
+    flex-direction: row;
+    gap: 2em;
     list-style-type: none;
+    min-height: 10%;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 10px;
 }
 
 .program-items li img {
-    width: 50px;
+    width: 15%;
+}
+
+.program-items li h4 {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    width: 25%;
+    text-align: left;
+    color: #ec5242;
+}
+
+.program-items li p {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    margin: 0;
+    color: rgba(46, 40, 40, 0.9);
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+
+.program-list button {
+    width: 80%;
+    height: 70px;
+    margin: 16px 10% 16px 10%;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    background: #ec5242;
+    padding: 20px 30px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin-top: 30px
+}
+
+.trainers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid-trainers {
+    display: grid;
+    grid-template-areas:
+    'trainer1'
+    'trainer2'
+    'trainer3'
+    'trainer4'
+    'trainer5'
+    'trainer6';
+    width: 100%;
+    height: 100px;
+}
+
+.chess {
+    background: url('assets/images/chess.jpg');
+    height: 100px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 20% 70%;
+    background-position: 0px 0px;
+    position: relative;
+    z-index: 1;
+}
+
+.trainer-info {
+    background-color: white;
+    position: relative;
+    top:-90px;
+    left: 10px;
+    z-index: 1000;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+
+.trainer-info img {
+    width: 30%;
+    height: 50%;
+}
+
+.trainer-info p {
+    padding: 0;
+    margin: 0;
+}
+
+.trainers button {
+    margin: 0;
+font-size: 20px;
+width: 70%;
+height: 30px;
+margin-top: -40px;
+
 }
