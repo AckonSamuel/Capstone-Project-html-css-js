@@ -113,7 +113,6 @@ hr {
 
 .program-list button {
     width: 80%;
-    height: 70px;
     margin: 16px 10% 16px 10%;
     color: white;
     display: block;
@@ -147,10 +146,10 @@ hr {
 
 .chess {
     background: url('assets/images/chess.jpg');
-    height: 100px;
+    height: 150px;
     width: 100%;
     background-repeat: no-repeat;
-    background-size: 20% 70%;
+    background-size: 70px 70px;
     background-position: 0px 0px;
     position: relative;
     z-index: 1;
@@ -159,7 +158,7 @@ hr {
 .trainer-info {
     background-color: white;
     position: relative;
-    top:-90px;
+    top:-130px;
     left: 10px;
     z-index: 1000;
     padding: 0;
@@ -193,4 +192,12 @@ margin-top: -40px;
 
 .fa-times {
     cursor: pointer;
+}
+
+.trainer4,
+.trainer5,
+.trainer6,
+.trainer7,
+.trainer3 {
+    display: none;
 }
