@@ -8,6 +8,8 @@ nav {
     right: 0;
 }
 
+
+
 .headline {
     background: linear-gradient(rgba(211, 211, 211, 0.9), rgba(211, 211, 211, 0.9)), url('assets/images/webmobile.jpg');
     background-repeat: no-repeat;
@@ -183,4 +185,12 @@ width: 70%;
 height: 30px;
 margin-top: -40px;
 
+}
+
+.fa-bars {
+    cursor: pointer;
+}
+
+.fa-times {
+    cursor: pointer;
 }
