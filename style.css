@@ -43,6 +43,27 @@ padding: 10px 10px 30px 10px;
     color: #d3d3d3;
     font-family: 'Lato', sans-serif;
 }
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nav-links li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    font-family: 'Lato', sans-serif;
+    color: #ec5242;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-links a {
+    color: #ec5242;
+    text-decoration: none;
+}
 
 .introt {
     padding: 1px;
@@ -74,7 +95,7 @@ hr {
 .program-items {
     padding-bottom: 30px;
     padding: 0;
-    gap: 10px;
+    gap: 20px;
 }
 
 .program-items li {
@@ -84,7 +105,7 @@ hr {
     list-style-type: none;
     min-height: 10%;
     background-color: rgba(255, 255, 255, 0.5);
-    margin: 10px;
+    margin: 20px;
 }
 
 .program-items li img {
