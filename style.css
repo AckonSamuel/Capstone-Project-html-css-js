@@ -5,4 +5,34 @@
 .program-list {
 display: flex;
 flex-direction: column;
+justify-items: center;
+}
+
+.program-list h2 {
+    text-align: center;
+    margin: 0;
+}
+
+hr {
+    color: black;
+    overflow: visible !important;
+    width: 50px;
+}
+
+.program-items {
+    background-image: url(./assets/images/main-bg.png), linear-gradient(rgb(39, 42, 49), rgb(39, 42, 49));
+    background-repeat: repeat;
+    background-size: 30px;
+    border: solid;
+    padding-bottom: 30px;
+}
+
+.program-items li {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.program-items li img {
+    width: 50px;
 }
