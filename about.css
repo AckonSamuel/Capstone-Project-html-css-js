@@ -28,11 +28,6 @@
     border: 1px solid gray;
   }
 
-  .logo hr {
-    width: 100%;
-    border: 1px solid gray;
-  }
-
   .proof hr {
     border: 1px solid #ec5242;
     width: 30px;
@@ -92,10 +87,11 @@
     line-height: 30px;
   }
 
-
   .logo hr {
     margin-top: 30px;
     margin-bottom: 30px;
+    width: 100%;
+    border: 1px solid gray;
   }
 
   .sponsors {
