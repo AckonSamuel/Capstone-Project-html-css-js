@@ -1,8 +1,7 @@
 /* eslint linebreak-style: ["error", "windows"] */
-const getnav = document.querySelector('nav');
-getnav.style.display = 'none';
+const getnav = document.querySelector('.nav02');
 const getFas = document.querySelector('.fas');
-
+const x = window.matchMedia('(min-width: 768px)');
 let toggleNav = false;
 
 function openUp() {
@@ -16,6 +15,19 @@ function closeUp() {
   getFas.classList.replace('fa-times', 'fa-bars');
   toggleNav = false;
 }
+
+function mediaCheck() {
+  if (x.matches) {
+    getFas.classList.remove('fa-bars');
+    getnav.style.display = 'flex';
+  } else {
+    getFas.classList.add('fa-bars');
+    getnav.style.display = 'none';
+  }
+}
+
+mediaCheck(x);
+x.addEventListener('change', mediaCheck);
 
 getFas.addEventListener('click', () => {
   if (toggleNav === false) { openUp(); } else { closeUp(); }
