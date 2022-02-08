@@ -1,0 +1,133 @@
+
+@media all and (max-width: 768px) {
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .well {
+    padding: 10px;
+    color: #272a31;
+    background-color: #fff;
+    border: 2px solid grey;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .headline a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .logo img {
+    padding: 10%;
+    border: 1px solid gray;
+  }
+
+  .logo hr {
+    width: 100%;
+    border: 1px solid gray;
+  }
+
+  .proof hr {
+    border: 1px solid #ec5242;
+    width: 30px;
+  }
+
+  .proof p {
+    width: 70%;
+  }
+
+  .proof img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .first-testimony {
+    background-image: linear-gradient(rgba(255, 142, 142, 0.5), rgba(255, 142, 142, 0.5)), url('assets/images/keira-burton.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+  }
+
+  .second-testimony {
+    background-image: linear-gradient(rgba(255, 142, 142, 0.5), rgba(255, 142, 142, 0.5)), url('assets/images/matheus-bertelli.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    margin: 50px  0 30px 0;
+  }
+
+  .head-test {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+
+  .body-test {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+
+
+  .logo hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .sponsors {
+    color: #fff;
+    width: 100%;
+    display: flex;
+    height: 250px;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-image: url('assets/images/Laptops_free-file.png'), url('assets/images/FLOWERS_free-file.png'), url('assets/images/Web.io_free-file.png');
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: 10px 100px, 150px 100px, 300px 100px;
+    background-size: 100px 100px, 100px 100px, 100px 100px;
+  }
+
+  .sponsors h4 {
+    line-height: 30px;
+    font-size: 30px;
+    margin: 20px 40% 0 30%;
+  }
+
+  .copyright {
+    background-color: white;
+    background-image: url('assets/images/web-logo.png');
+    width: 100%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    background-size: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
