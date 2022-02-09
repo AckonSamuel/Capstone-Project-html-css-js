@@ -255,6 +255,7 @@
     height: 70px;
     justify-content: flex-end;
     align-items: center;
+    padding-right: 10%;
   }
 
   .nav02 {
@@ -276,8 +277,9 @@
     gap: 2em;
     background-color: #272a31;
     width: 100%;
-    padding: 0.5em 0.5em 0.5em;
+    padding: 0.5em 10% 0.5em;
     justify-content: flex-end;
+    
   }
 
   .desktop-bar li {
