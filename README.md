@@ -28,11 +28,11 @@ To run this application please follow these steps:
 ## Authors
 
 👤 **Author1**
-Adorn Choga (me)
+Ackon Samuel (me)
 
-- GitHub: [@asanchy](https://github.com/AckonSamuel)
-- Twitter: [@adorn_choga](https://twitter.com/AckonSamuel2)
-- LinkedIn: [adorn-choga](https://www.linkedin.com/in/samuel-ackon-882717190/)
+- GitHub: [@AckonSamuel](https://github.com/AckonSamuel)
+- Twitter: [@AckonSamuel2](https://twitter.com/AckonSamuel2)
+- LinkedIn: [Samuel Ackon](https://www.linkedin.com/in/samuel-ackon-882717190/)
 
 👤 **Author2**
 [Cindy Shin](https://www.behance.net/adagio07) is the author of the template that I used to build this website.
