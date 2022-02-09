@@ -1,37 +1,58 @@
-## Welcome to GitHub Pages
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-You can use the [editor on GitHub](https://github.com/AckonSamuel/Capstone-Project-html-css-js/edit/desktop-version/README.md) to maintain and preview the content for your website in Markdown files.
+# Web-Development-Course
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+> This is a website for recruiting and teaching students web-development.
 
-### Markdown
+## Built With
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- HTML , CSS and JavaScript.
 
-```markdown
-Syntax highlighted code block
+## Live Demo
 
-# Header 1
-## Header 2
-### Header 3
+[Live Demo Link](https://ackonsamuel.github.io/Capstone-Project-html-css-js/)
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+## Getting Started
 
-**Bold** and _Italic_ and `Code` text
+To run this application please follow these steps:
 
-[Link](url) and ![Image](src)
-```
+1.Clone the repo onto you local machine
+  - to clone click on the green 'Code' button and copy the HTTPS link.
+  -using 'git clone <link>' command clone the repository on your local machine.
+2.Open the project using your browser
+  -you can either open the html file from the folder where you cloned this repository to see the live preview of this project or you can open it from Visual Studio Code.
+  -if you have  Visual Studio Code (Install it if you don't have it please) install Live Server from the extensions market place and then right click on the index.html file and click option 1 (which says : Open with Live Server). It will open up in your default browser.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
+## Authors
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AckonSamuel/Capstone-Project-html-css-js/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+👤 **Author1**
+Ackon Samuel (me)
 
-### Support or Contact
+- GitHub: [@AckonSamuel](https://github.com/AckonSamuel)
+- Twitter: [@AckonSamuel2](https://twitter.com/AckonSamuel2)
+- LinkedIn: [Samuel Ackon](https://www.linkedin.com/in/samuel-ackon-882717190/)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+👤 **Author2**
+[Cindy Shin](https://www.behance.net/adagio07) is the author of the template that I used to build this website.
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgements
+
+I would like to acknowledge [Pexels](https://www.pexels.com/) the profile images I obtained from their site for free.
+I also acknowledge [Renderforest](https://www.renderforest.com) for the free logo I got from their website.
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
