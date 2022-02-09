@@ -23,7 +23,9 @@ To run this application please follow these steps:
 2.Open the project using your browser
   -you can either open the html file from the folder where you cloned this repository to see the live preview of this project or you can open it from Visual Studio Code.
   -if you have  Visual Studio Code (Install it if you don't have it please) install Live Server from the extensions market place and then right click on the index.html file and click option 1 (which says : Open with Live Server). It will open up in your default browser.
-
+  
+## Project Documentation
+[documentation_video](https://www.loom.com/share/402b2e47658b4ad4b3cbd74b5cbb24f8)
 
 ## Authors
 
