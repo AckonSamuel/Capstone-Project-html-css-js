@@ -2,6 +2,7 @@
   * {
     box-sizing: border-box;
   }
+
   h1,
   h2,
   h3,
@@ -11,9 +12,10 @@
     font-family: 'COCOGOOSE', sans-serif;
   }
 
-  .home-footer  {
+  .home-footer {
     display: none;
   }
+
   p {
     font-family: 'Lato', sans-serif;
   }
@@ -260,6 +262,8 @@
 
   .nav02 {
     height: 70px;
+    padding: 0;
+    margin: 0;
   }
 
   .nav-links li {
@@ -279,7 +283,6 @@
     width: 100%;
     padding: 0.5em 10% 0.5em;
     justify-content: flex-end;
-    
   }
 
   .desktop-bar li {
@@ -366,6 +369,11 @@
     flex-direction: row;
   }
 
+  .trainer-info img {
+    width: 200px;
+    height: 200px;
+  }
+
   .program-items li img {
     width: 100%;
   }
@@ -378,6 +386,11 @@
     min-height: 10%;
     background-color: rgba(255, 255, 255, 0.5);
     margin: 20px;
+  }
+
+  .sponsors h4 {
+    opacity: 0.5;
+    padding: 10px;
   }
 
   .program-items li h4 {
@@ -451,11 +464,6 @@
     margin-top: -40px;
   }
 
-  .trainer-info img {
-    width: 200px;
-    height: 200px;
-  }
-
   .trainer1,
   .trainer2,
   .trainer3,
@@ -471,7 +479,8 @@
     flex-wrap: wrap;
     row-gap: 20px;
     justify-content: space-between;
-    padding: auto 50px auto 50px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   .top-logo {
@@ -480,11 +489,6 @@
 
   .fas {
     display: none;
-  }
-
-  .nav02 {
-    padding: 0;
-    margin: 0;
   }
 
   .more-tutors {
@@ -519,11 +523,6 @@
     background-repeat: no-repeat;
     background-position: 10% 50%, 50% 80%, 90% 100%;
     background-size: 200px;
-  }
-
-  .sponsors h4 {
-    opacity: 0.5;
-    padding: 10px;
   }
 
   .respect {

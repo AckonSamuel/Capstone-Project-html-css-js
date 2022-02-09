@@ -127,9 +127,7 @@
     align-items: flex-end;
     padding: 0;
   }
-  
 }
-
 
 @media all and (min-width: 768px) {
   section {
