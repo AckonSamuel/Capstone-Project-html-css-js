@@ -78,17 +78,17 @@ const trainers = [{
 }];
 
 function loadTutors() {
-  const section = document.querySelector('.trainers');
-  const title = '<h3 class="tutors-title">Our Trainers</h3>';
-  const container = document.createElement('div');
-  container.classList.add('grid-trainers-mobile');
+  const getTrainers = document.querySelector('.trainers');
+  const getTitle = '<h3 class="tutors-title">Our Trainers</h3>';
+  const getTrainer = document.createElement('div');
+  getTrainer.classList.add('grid-trainers-mobile');
   const underline = '<hr>';
-  section.innerHTML = title;
-  section.innerHTML += underline;
-  section.appendChild(container);
+  getTrainers.innerHTML = getTitle;
+  getTrainers.innerHTML += underline;
+  getTrainers.appendChild(getTrainer);
 
   for (let i = 0; i < trainers.length; i += 1) {
-    container.innerHTML += `
+    getTrainer.innerHTML += `
       <div class="trainer${i + 1}">
       <div class="chess"></div>
       <div class="trainer-info">
@@ -99,7 +99,7 @@ function loadTutors() {
   </div>
       `;
   }
-  section.innerHTML += '<button type="button">More <i class="fas fa-angle-down"></button>';
+  getTrainers.innerHTML += '<button type="button" class="more-tutors">More <i class="fas fa-angle-down"></button>';
 }
 
 window.addEventListener('load', loadTutors);
