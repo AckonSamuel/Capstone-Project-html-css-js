@@ -3,6 +3,18 @@
     box-sizing: border-box;
   }
 
+  button:focus {
+    background: white;
+    color: #ec5242;
+  }
+  .greetings {
+    color: #ec5242;
+    line-height: 40px;
+    font-weight: 100;
+    padding: 10px;
+    font-family: 'COCOGOOSE', sans-serif;
+  }
+
   h1,
   h2,
   h3,
@@ -484,7 +496,9 @@
   }
 
   .top-logo {
-    padding: 10px;
+    display: inline-block;
+    padding-top: 5px;
+    width: 100px;
   }
 
   .fas {
@@ -537,5 +551,36 @@
     background-position: 10% 90%;
     background-color: white;
     background-size: 200px;
+  }
+
+  .intro-level-2 {
+    color:#272a31;
+    padding-top: 70px;
+    line-height: 30px;
+    font-size: 30x;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .logo {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+  }
+
+  .logo h2 {
+    line-height: 50px;
+    font-size: 35px;
+
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  button:hover {
+    box-shadow: 5px 5px 5px 5px #272a31;
+    background-color: #fff;
+    color: #ec5242;
   }
 }
