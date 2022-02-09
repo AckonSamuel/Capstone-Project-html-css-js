@@ -1,4 +1,4 @@
-/* eslint linebreak-style: ["error", "windows"] */
+/* eslint-disable linebreak-style */
 const getnav = document.querySelector('.nav02');
 const getFas = document.querySelector('.fas');
 const x = window.matchMedia('(min-width: 768px)');
