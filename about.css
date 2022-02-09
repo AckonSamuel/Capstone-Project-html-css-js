@@ -159,6 +159,7 @@
     border: 1px solid gray;
     box-shadow: 10px 10px 20px 20px gray;
   }
+
   .proof {
     display: flex;
     flex-direction: column;
@@ -171,10 +172,12 @@
     border: 1px solid #ec5242;
     width: 30px;
   }
-.proof h3{
-  line-height: 30px;
-  font-size: 40px;
-}
+
+  .proof h3 {
+    line-height: 30px;
+    font-size: 40px;
+  }
+
   .proof p {
     width: 70%;
     font-size: 30px;
@@ -245,6 +248,4 @@
     width: 100%;
     justify-content: space-around;
   }
-
-  
 }

@@ -7,6 +7,7 @@
     background: white;
     color: #ec5242;
   }
+
   .greetings {
     color: #ec5242;
     line-height: 40px;
@@ -425,6 +426,10 @@
     font-family: 'Lato', sans-serif;
   }
 
+  button {
+    cursor: pointer;
+  }
+
   .program-list button {
     width: 80%;
     margin: 16px 10% 16px 10%;
@@ -554,10 +559,10 @@
   }
 
   .intro-level-2 {
-    color:#272a31;
+    color: #272a31;
     padding-top: 70px;
     line-height: 30px;
-    font-size: 30x;
+    font-size: 18px;
     font-family: 'Lato', sans-serif;
   }
 
@@ -565,17 +570,12 @@
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    gap: 30px
+    gap: 30px;
   }
 
   .logo h2 {
     line-height: 50px;
     font-size: 35px;
-
-  }
-
-  button {
-    cursor: pointer;
   }
 
   button:hover {
