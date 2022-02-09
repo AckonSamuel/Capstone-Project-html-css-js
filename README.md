@@ -36,10 +36,6 @@ Ackon Samuel (me)
 - Twitter: [@AckonSamuel2](https://twitter.com/AckonSamuel2)
 - LinkedIn: [Samuel Ackon](https://www.linkedin.com/in/samuel-ackon-882717190/)
 
-👤 **Author2**
-[Cindy Shin](https://www.behance.net/adagio07) is the author of the template that I used to build this website.
-
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
@@ -52,6 +48,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgements
 
+[Cindy Shin](https://www.behance.net/adagio07) is the author of the template that I used to build this website.
 I would like to acknowledge [Pexels](https://www.pexels.com/) the profile images I obtained from their site for free.
 I also acknowledge [Renderforest](https://www.renderforest.com) for the free logo I got from their website.
 
