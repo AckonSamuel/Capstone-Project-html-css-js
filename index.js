@@ -2,6 +2,8 @@
 const getnav = document.querySelector('.nav02');
 const getFas = document.querySelector('.fas');
 const x = window.matchMedia('(min-width: 768px)');
+const y = document.querySelectorAll('.diva');
+
 let toggleNav = false;
 
 function openUp() {
@@ -89,7 +91,7 @@ function loadTutors() {
 
   for (let i = 0; i < trainers.length; i += 1) {
     getTrainer.innerHTML += `
-      <div class="trainer${i + 1}">
+      <div class="trainer${i + 1} diva">
       <div class="chess"></div>
       <div class="trainer-info">
           <img src=${trainers[i].img} alt=${trainers[i].alt}>

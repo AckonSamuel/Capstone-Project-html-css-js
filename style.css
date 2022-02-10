@@ -25,10 +25,6 @@
     font-family: 'COCOGOOSE', sans-serif;
   }
 
-  .home-footer {
-    display: none;
-  }
-
   p {
     font-family: 'Lato', sans-serif;
   }
@@ -140,15 +136,51 @@
   .program-items li {
     display: flex;
     flex-direction: row;
-    gap: 2em;
+    gap: 1em;
     list-style-type: none;
     min-height: 10%;
     background-color: rgba(255, 255, 255, 0.5);
     margin: 20px;
   }
 
+  .sponsors {
+    color: #fff;
+    width: 100%;
+    display: flex;
+    height: 250px;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-image: url('assets/images/Laptops_free-file.png'), url('assets/images/FLOWERS_free-file.png'), url('assets/images/Web.io_free-file.png');
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: 10px 100px, 150px 100px, 300px 100px;
+    background-size: 100px 100px, 100px 100px, 100px 100px;
+  }
+
+  .sponsors h4 {
+    line-height: 30px;
+    font-size: 30px;
+    margin: 20px 40% 0 30%;
+  }
+
+  .copyright {
+    background-color: white;
+    background-image: url('assets/images/web-logo.png');
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    background-size: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0;
+  }
+}
+
   .program-items li img {
-    width: 15%;
+    width: 70px;
+    height: 70px;
   }
 
   .program-items li h4 {
