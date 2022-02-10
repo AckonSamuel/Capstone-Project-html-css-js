@@ -148,19 +148,27 @@
     width: 100%;
     display: flex;
     height: 250px;
+    align-items: center;
+    text-align: center;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.7);
     background-image: url('assets/images/Laptops_free-file.png'), url('assets/images/FLOWERS_free-file.png'), url('assets/images/Web.io_free-file.png');
     background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: 10px 100px, 150px 100px, 300px 100px;
+    background-position: 10px 100px, 50% 100px, 90% 100px;
     background-size: 100px 100px, 100px 100px, 100px 100px;
   }
 
   .sponsors h4 {
-    line-height: 30px;
-    font-size: 30px;
-    margin: 20px 40% 0 30%;
-  }
+    font-size: 1.5em;
+
+    text-align: center;
+    opacity: 0.5;
+    padding-top: 10px;
+}
+
+.sponsors hr {
+  margin-top: -10px;
+}
 
   .copyright {
     background-color: white;
@@ -172,11 +180,15 @@
     background-size: 30%;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding: 0;
+    justify-content: center;
+    align-items: center;
+
   }
-}
+
+  .copyright p {
+    margin-left: 50%;
+  }
+
 
   .program-items li img {
     width: 70px;
@@ -192,15 +204,19 @@
     color: #ec5242;
   }
 
-  .program-items li p {
+  .heet {
     display: flex;
+    flex-direction: row;
+    flex: 1;
     align-items: center;
+    justify-content: center;
     width: 40%;
     margin: 0;
     color: rgba(46, 40, 40, 0.9);
     font-size: 14px;
     font-weight: 600;
     font-family: 'Lato', sans-serif;
+    text-align: center;
   }
 
   .program-list button {
@@ -271,6 +287,23 @@
   .nav01 {
     display: none;
   }
+
+  .hee {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    line-height: 1em;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    color: #ec5242;
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
 }
 
 @media all and (min-width: 768px) {
@@ -279,6 +312,8 @@
     margin: 0;
     padding: 0;
   }
+
+  
 
   h1,
   h2,
@@ -420,17 +455,20 @@
   }
 
   .program-items li img {
-    width: 100%;
+    width: 90px;
+    height: 90px;
   }
 
   .program-items li {
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    align-items: center;
     list-style-type: none;
-    min-height: 10%;
-    background-color: rgba(255, 255, 255, 0.5);
+    height: max-content;
+    background-color: #d3d3d3;
     margin: 20px;
+    width: 70%;
+    height:200px;
   }
 
   .sponsors h4 {
@@ -438,21 +476,14 @@
     padding: 10px;
   }
 
-  .program-items li h4 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .heet {
     text-align: center;
-    color: #ec5242;
-  }
-
-  .program-items li p {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 5px;
     line-height: 1em;
-    color: #fff;
+    color: #272a31;
     font-size: 16px;
     font-weight: 600;
     font-family: 'Lato', sans-serif;
@@ -463,8 +494,6 @@
   }
 
   .program-list button {
-    width: 80%;
-    margin: 16px 10% 16px 10%;
     color: white;
     display: block;
     border: none;
@@ -613,6 +642,23 @@
   button:hover {
     box-shadow: 5px 5px 5px 5px #272a31;
     background-color: #fff;
+    color: #ec5242;
+  }
+
+  .respect p {
+    margin-right: 20%;
+  }
+
+  .hee {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    line-height: 1em;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
     color: #ec5242;
   }
 }

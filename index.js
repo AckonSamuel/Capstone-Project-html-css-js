@@ -2,7 +2,6 @@
 const getnav = document.querySelector('.nav02');
 const getFas = document.querySelector('.fas');
 const x = window.matchMedia('(min-width: 768px)');
-const y = document.querySelectorAll('.diva');
 
 let toggleNav = false;
 
@@ -101,7 +100,16 @@ function loadTutors() {
   </div>
       `;
   }
-  getTrainers.innerHTML += '<button type="button" class="more-tutors">More <i class="fas fa-angle-down"></button>';
+  getTrainers.innerHTML += '<button type="button" class="more-tutors" onclick="ipUp();">More <i class="fas fa-angle-down"></button>';
+}
+
+const getTrainer3 = document.querySelector('.trainer3');
+const getTrainer4 = document.querySelector('.trainer4');
+const getTrainer5 = document.querySelector('.trainer5');
+const getTrainer6 = document.querySelector('.trainer6');
+
+function ipUp() {
+  getTrainer3.style.display = 'block';
 }
 
 window.addEventListener('load', loadTutors);
