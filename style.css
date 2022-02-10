@@ -160,15 +160,14 @@
 
   .sponsors h4 {
     font-size: 1.5em;
-
     text-align: center;
     opacity: 0.5;
     padding-top: 10px;
-}
+  }
 
-.sponsors hr {
-  margin-top: -10px;
-}
+  .sponsors hr {
+    margin-top: -10px;
+  }
 
   .copyright {
     background-color: white;
@@ -182,13 +181,11 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
   }
 
   .copyright p {
     margin-left: 50%;
   }
-
 
   .program-items li img {
     width: 70px;
@@ -276,14 +273,6 @@
     cursor: pointer;
   }
 
-  .trainer4,
-  .trainer5,
-  .trainer6,
-  .trainer7,
-  .trainer3 {
-    display: none;
-  }
-
   .nav01 {
     display: none;
   }
@@ -303,7 +292,6 @@
     margin-left: 10px;
     margin-right: 10px;
   }
-  
 }
 
 @media all and (min-width: 768px) {
@@ -313,7 +301,7 @@
     padding: 0;
   }
 
-  
+
 
   h1,
   h2,
@@ -468,7 +456,7 @@
     background-color: #d3d3d3;
     margin: 20px;
     width: 70%;
-    height:200px;
+    height: 200px;
   }
 
   .sponsors h4 {

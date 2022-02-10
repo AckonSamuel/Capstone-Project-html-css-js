@@ -100,16 +100,6 @@ function loadTutors() {
   </div>
       `;
   }
-  getTrainers.innerHTML += '<button type="button" class="more-tutors" onclick="ipUp();">More <i class="fas fa-angle-down"></button>';
-}
-
-const getTrainer3 = document.querySelector('.trainer3');
-const getTrainer4 = document.querySelector('.trainer4');
-const getTrainer5 = document.querySelector('.trainer5');
-const getTrainer6 = document.querySelector('.trainer6');
-
-function ipUp() {
-  getTrainer3.style.display = 'block';
 }
 
 window.addEventListener('load', loadTutors);
