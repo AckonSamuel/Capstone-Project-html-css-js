@@ -301,8 +301,6 @@
     padding: 0;
   }
 
-
-
   h1,
   h2,
   h3,
@@ -452,16 +450,10 @@
     flex-direction: column;
     align-items: center;
     list-style-type: none;
-    height: max-content;
     background-color: #d3d3d3;
     margin: 20px;
     width: 70%;
     height: 200px;
-  }
-
-  .sponsors h4 {
-    opacity: 0.5;
-    padding: 10px;
   }
 
   .heet {

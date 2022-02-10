@@ -112,6 +112,8 @@
     line-height: 30px;
     font-size: 30px;
     margin: 20px 40% 0 30%;
+    opacity: 0.5;
+    padding: 10px;
   }
 
   .copyright {
@@ -128,15 +130,6 @@
     align-items: flex-end;
     padding: 0;
   }
-
-  .sponsors h4 {
-    opacity: 0.5;
-    padding: 10px;
-  }
-
-  /* .sponsors hr {
-    margin-top: -20px;
-  } */
 }
 
 @media all and (min-width: 768px) {
